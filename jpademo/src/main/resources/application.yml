@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: jpademo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springjpademodb
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
